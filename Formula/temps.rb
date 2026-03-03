@@ -1,23 +1,23 @@
 class Temps < Formula
   desc "Temps - Temporary file and directory management tool"
   homepage "https://github.com/gotempsh/temps"
-  version "0.0.4"
+  version "0.0.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/gotempsh/temps/releases/download/v0.0.4/temps-darwin-arm64.tar.gz"
-      sha256 "95ee0f7a1e4174853b6dffcb4afbd71073fa34b73dde2e6764431ae62000f956"
+      url "https://github.com/gotempsh/temps/releases/download/v0.0.5/temps-darwin-arm64.tar.gz"
+      sha256 "81a793a241c615f01c2a51bbc4d6f07fb7ca7546e12b3954d8145cf21d55796d"
     else
-      url "https://github.com/gotempsh/temps/releases/download/v0.0.4/temps-darwin-amd64.tar.gz"
-      sha256 "3ce4b67311cf8c0b7f4ac3141dffafdd1e45b28c66b280ad5ada214b457dfc65"
+      url "https://github.com/gotempsh/temps/releases/download/v0.0.5/temps-darwin-amd64.tar.gz"
+      sha256 "cf6330208b7aecec0398237277042e48535472addca3115f1182c7f799faab4a"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/gotempsh/temps/releases/download/v0.0.4/temps-linux-amd64.tar.gz"
-      sha256 "bf1b422eb68eb479349d244aa0e2f4aaa3c3689427116e22f5caa03d97230871"
+      url "https://github.com/gotempsh/temps/releases/download/v0.0.5/temps-linux-amd64.tar.gz"
+      sha256 "3bdeab6e83489c5b260a6e7f0c587d35c29e2dee835a1fb8243d66086068465b"
     end
   end
 
